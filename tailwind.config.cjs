@@ -1,0 +1,16 @@
+/** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+module.exports = {
+  content: ['./src/**/*.{html,js,svelte,ts}'],
+  theme: {
+    extend: {
+      backgroundImage: {
+        'navbar-button': "url('/trtn-static/backgrounds/navbarbutton.png')"
+      }
+    },
+    fontFamily: {
+      'sans': ['Outfit', ...defaultTheme.fontFamily.sans]
+    }
+  },
+  plugins: []
+};
