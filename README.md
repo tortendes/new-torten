@@ -1,18 +1,9 @@
-# create-svelte
+# New Torten
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is currently the Github repository for developing my new site.
+Currently not the main one since this is currently on development but, it should be acessible at [this link](https://new.torten.xyz) sometime soon.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Written with Svelte, Tailwind CSS and mdsvex.
 
 ## Developing
 

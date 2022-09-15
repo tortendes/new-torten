@@ -9,7 +9,8 @@ module.exports = {
       }
     },
     fontFamily: {
-      'sans': ['Outfit', ...defaultTheme.fontFamily.sans]
+      'sans': ['Outfit', ...defaultTheme.fontFamily.sans],
+      'handwriting': ['Work Sans', 'sans-serif']
     }
   },
   plugins: []
